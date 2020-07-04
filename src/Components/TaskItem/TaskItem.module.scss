@@ -1,0 +1,45 @@
+.TaskItemToDo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 25px;
+    padding: 0 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+      p {
+          line-height: 25px;
+          &:hover {
+            cursor: pointer;
+          }
+      }
+      img {
+          padding-top: 5px;
+      }
+}
+
+.TaskItemComplited {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 25px;
+  padding: 0 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+    p {
+        line-height: 25px;
+        color: grey;
+        text-decoration: line-through;
+        &:hover {
+          cursor: pointer;
+        }
+    }
+    img {
+        padding-top: 5px;
+        &:hover {
+          cursor: pointer;
+        }
+    }
+}
+
